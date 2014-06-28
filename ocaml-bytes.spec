@@ -71,6 +71,7 @@ rm -rf $RPM_BUILD_ROOT
 %files devel
 %defattr(644,root,root,755)
 %doc README.md bytes.mli
+%dir %{_libdir}/ocaml/bytes
 %{_libdir}/ocaml/bytes/bytes.cm[aiox]
 %if %{with opt}
 %{_libdir}/ocaml/bytes/bytes.a
