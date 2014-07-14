@@ -5,12 +5,12 @@
 Summary:	Transitional Bytes module for OCaml
 Summary(pl.UTF-8):	Przejściowy moduł Bytes dla OCamla
 Name:		ocaml-bytes
-Version:	1.1
+Version:	1.2
 Release:	1
 License:	unknown
 Group:		Libraries
 Source0:	https://github.com/chambart/ocaml-bytes/archive/%{name}.%{version}.tar.gz
-# Source0-md5:	84046a5f220f4ac64c90353cbc2c862f
+# Source0-md5:	487d38796dae39e06b7cfffcc82ea0f3
 URL:		https://github.com/chambart/ocaml-bytes/
 BuildRequires:	ocaml >= 3.04-7
 BuildRequires:	ocaml-findlib
