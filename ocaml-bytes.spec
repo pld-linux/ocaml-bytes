@@ -13,6 +13,8 @@ Source0:	https://github.com/chambart/ocaml-bytes/archive/%{name}.%{version}.tar.
 # Source0-md5:	487d38796dae39e06b7cfffcc82ea0f3
 URL:		https://github.com/chambart/ocaml-bytes/
 BuildRequires:	ocaml >= 3.04-7
+# already included in OCaml 4
+BuildRequires:	ocaml < 1:4
 BuildRequires:	ocaml-findlib
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
