@@ -6,7 +6,7 @@ Summary:	Transitional Bytes module for OCaml
 Summary(pl.UTF-8):	Przejściowy moduł Bytes dla OCamla
 Name:		ocaml-bytes
 Version:	1.2
-Release:	1
+Release:	2
 License:	unknown
 Group:		Libraries
 Source0:	https://github.com/chambart/ocaml-bytes/archive/%{name}.%{version}.tar.gz
