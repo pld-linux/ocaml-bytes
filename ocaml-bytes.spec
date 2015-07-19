@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without	opt		# build opt
+%bcond_without	ocaml_opt	# build opt (native code)
 
 Summary:	Transitional Bytes module for OCaml
 Summary(pl.UTF-8):	Przejściowy moduł Bytes dla OCamla
@@ -75,7 +75,7 @@ rm -rf $RPM_BUILD_ROOT
 %doc README.md bytes.mli
 %dir %{_libdir}/ocaml/bytes
 %{_libdir}/ocaml/bytes/bytes.cm[aiox]
-%if %{with opt}
+%if %{with ocaml_opt}
 %{_libdir}/ocaml/bytes/bytes.a
 %{_libdir}/ocaml/bytes/bytes.cmxa
 %{_libdir}/ocaml/bytes/bytes.cmxs
